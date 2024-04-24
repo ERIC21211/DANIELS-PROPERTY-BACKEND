@@ -1,4 +1,5 @@
 import { faker } from "@faker-js/faker";
+import { storepropertyData } from "../helpers/helper.js";
 
 export const generatebungalowData = (): propertyData => {
   // Generate random property data
@@ -8,6 +9,9 @@ export const generatebungalowData = (): propertyData => {
     sellingprice: faker.number.int({ min: 60000, max: 10000000 }),
     rentprice: faker.number.int({ min: 500, max: 10000 })
   };
+
+
+storepropertyData(generatedpropertyData).catch(console.error);
 
   // Return property data
   return generatedpropertyData;
@@ -22,9 +26,12 @@ export const generatecottageData = (): propertyData => {
       rentprice: faker.number.int({ min: 500, max: 10000 })
     };
   
+    storepropertyData(generatedpropertyData).catch(console.error);
+    
     // Return property data
     return generatedpropertyData;
   };
+
 
 
   export const generateterracedData = (): propertyData => {
