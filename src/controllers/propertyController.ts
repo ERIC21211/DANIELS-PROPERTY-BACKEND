@@ -27,29 +27,32 @@ export const getpropertyData = async (req: Request, res: Response) => {
   // We will use a try catch block to catch any errors
   try {
     // Get the property param from the request
-    const { property } = req.params;
-    console.log(property);
+    const { type } = req.params;
+    console.log(type);
 
     // We will create a variable with a type of WeatherData
-    let finalWeatherData: propertyData;
+    let finalpropertyData: propertyData;
 
     // We will use an if statement to check which city was passed in
-    if (property === "bungalow") {
+    if (type === "bungalow") {
       console.log(generatebungalowData());
-      finalWeatherData = generatebungalowData();
-    } else if (property === "cottage") {
-      finalWeatherData = generatecottageData();
-    } else if (property === "terraced") {
-        finalWeatherData = generateterracedData();
-    } else if (property === "flat") {
-        finalWeatherData = generateflatData();
+      finalpropertyData = generatebungalowData();
+    } else if (type === "cottage") {
+      console.log(generatecottageData());
+      finalpropertyData = generatecottageData();
+    } else if (type === "terraced") {
+      console.log(generateterracedData())
+      finalpropertyData = generateterracedData();
+    } else if (type === "flat") {
+      console.log(generateflatData())
+      finalpropertyData = generateflatData();
     } else {
       // If the property is not bungalow, cottage, terraced or flat we will throw an error
       res.status(404).send("property not found");
     }
 
     // We will return the property data as JSON
-    res.status(200).json(finalWeatherData);
+    res.status(200).json(finalpropertyData);
   } catch (error) {
     // If there is an error, we will log it and send a 500 status code
     res.status(500).send("Error in fetching property data");

@@ -13,8 +13,8 @@ interface WeatherDailyData {
 }
 
 interface propertyData {
-  type: string;
-  buyingprice: number;
-  sellingprice: number;
-  rentprice: number;
+ type: string;
+ buyingprice: number;
+ sellingprice: number;
+ rentprice: number;
 }
