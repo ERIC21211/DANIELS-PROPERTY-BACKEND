@@ -4,9 +4,9 @@ export const generatebungalowData = (): propertyData => {
   // Generate random property data
   const generatedpropertyData = {
     type: 'bungalow',
-    buyingprice: faker.number.int({ min: 79, max: 86 }),
-    sellingprice: faker.number.int({ min: 2, max: 78 }),
-    rentprice: faker.number.int({ min: 65, max: 75 }),
+    buyingprice: faker.number.int({ min: 50000, max: 5000000 }),
+    sellingprice: faker.number.int({ min: 60000, max: 10000000 }),
+    rentprice: faker.number.int({ min: 500, max: 10000 }),
   };
 
   // Return property data
@@ -17,9 +17,9 @@ export const generatecottageData = (): propertyData => {
     // Generate random property data
     const generatedpropertyData = {
         type: 'cottage',
-      buyingprice: faker.number.int({ min: 79, max: 86 }),
-      sellingprice: faker.number.int({ min: 2, max: 78 }),
-      rentprice: faker.number.int({ min: 65, max: 75 }),
+      buyingprice: faker.number.int({ min: 50000, max: 5000000 }),
+      sellingprice: faker.number.int({ min: 60000, max: 10000000 }),
+      rentprice: faker.number.int({ min: 500, max: 10000 }),
     };
   
     // Return property data
@@ -31,9 +31,9 @@ export const generatecottageData = (): propertyData => {
     // Generate random property data
     const generatedpropertyData = {
         type: 'terraced',
-        buyingprice: faker.number.int({ min: 79, max: 86 }),
-        sellingprice: faker.number.int({ min: 2, max: 78 }),
-        rentprice: faker.number.int({ min: 65, max: 75 }),
+        buyingprice: faker.number.int({ min: 50000, max: 5000000 }),
+        sellingprice: faker.number.int({ min: 60000, max: 10000000 }),
+        rentprice: faker.number.int({ min: 500, max: 10000 }),
     };
   
     // Return property data
@@ -45,9 +45,9 @@ export const generatecottageData = (): propertyData => {
     // Generate random property data
     const generatedpropertyData = {
         type: 'flat',
-        buyingprice: faker.number.int({ min: 79, max: 86 }),
-        sellingprice: faker.number.int({ min: 2, max: 78 }),
-        rentprice: faker.number.int({ min: 65, max: 75 }),
+        buyingprice: faker.number.int({ min: 50000, max: 5000000 }),
+        sellingprice: faker.number.int({ min: 60000, max: 10000000 }),
+        rentprice: faker.number.int({ min: 500, max: 10000 }),
     };
   
     // Return property data
