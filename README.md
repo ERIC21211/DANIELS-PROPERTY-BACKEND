@@ -20,6 +20,29 @@ To use the backend of the Property App:
 4. Start the server using `npm start`.
 
 
+## Blockchain Interaction
+
+The creation of the files for blockchain interaction in our property app has been successfully implemented. These files facilitate communication with the blockchain network, allowing me to perform transactions related to property management.
+
+## Confirm Transaction
+
+Before proceeding with any transactions, ensure that the necessary confirmation steps are completed. This includes verifying the details of the transaction and confirming the unique mnemonic code associated with it.
+
+## Generating Mnemonic Code
+
+To generate the unique mnemonic code required for transactions, follow these steps:
+
+1. [Step 1: Enter the specified command to generate the mnemonic code]
+2. [Step 2: Verify the generated mnemonic code]
+3. [Step 3: Store the mnemonic code securely]
+
+Once the mnemonic code is generated and verified, you are ready to proceed with transactions in the property app.
+
+
+Please Note: The mnemonic code and transaction id has been generated for the property app!! if you wish to know the transaction id please send me a request.
+
+
+
 ## Pre Instruction
 The below instructions consists of pre steps required to develop the backend.
 
