@@ -1,3 +1,29 @@
+# Property App Backend
+
+## Introduction
+This repository contains the backend codebase for the Property App. The backend is responsible for managing property data and providing APIs for the frontend to consume.
+
+## Implementation Details
+The creation of the property files for the backend has been successfully implemented. Below is an overview of the necessary files that have been created:
+
+1. **Interfaces**: Define contracts for interacting with different components of the system.
+2. **Controllers**: Handle incoming HTTP requests, process them, and return appropriate responses.
+3. **Services**: Implement app logic and interact with data storage (e.g., Cloud databases) to perform CRUD operations on properties.
+4. **Server**: Set up the HTTP server and configure routing to map incoming requests to appropriate controllers.
+
+## Usage
+To use the backend of the Property App:
+
+1. Clone this repository to your local machine.
+2. Make sure you have Node.js and npm installed.
+3. Install dependencies by running `npm install`.
+4. Start the server using `npm start`.
+
+
+## Pre Instruction
+The below instructions consists of pre steps required to develop the backend.
+
+
 # Weather API
 
 This Weather API is built using Node.js and Express, and it's designed to fetch weather data for a specified city. It's a simple demonstration of creating and deploying RESTful APIs with a service layer architecture, using TypeScript for improved code reliability.
