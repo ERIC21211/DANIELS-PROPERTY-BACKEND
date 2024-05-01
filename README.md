@@ -1,3 +1,52 @@
+# Property App Backend
+
+## Introduction
+This repository contains the backend codebase for the Property App. The backend is responsible for managing property data and providing APIs for the frontend to consume.
+
+## Implementation Details
+The creation of the property files for the backend has been successfully implemented. Below is an overview of the necessary files that have been created:
+
+1. **Interfaces**: Define contracts for interacting with different components of the system.
+2. **Controllers**: Handle incoming HTTP requests, process them, and return appropriate responses.
+3. **Services**: Implement app logic and interact with data storage (e.g., Cloud databases) to perform CRUD operations on properties.
+4. **Server**: Set up the HTTP server and configure routing to map incoming requests to appropriate controllers.
+
+## Usage
+To use the backend of the Property App:
+
+1. Clone this repository to your local machine.
+2. Make sure you have Node.js and npm installed.
+3. Install dependencies by running `npm install`.
+4. Start the server using `npm start`.
+
+
+## Blockchain Interaction
+
+The creation of the files for blockchain interaction in our property app has been successfully implemented. These files facilitate communication with the blockchain network, allowing me to perform transactions related to property management.
+
+## Confirm Transaction
+
+Before proceeding with any transactions, ensure that the necessary confirmation steps are completed. This includes verifying the details of the transaction and confirming the unique mnemonic code associated with it.
+
+## Generating Mnemonic Code
+
+To generate the unique mnemonic code required for transactions, follow these steps:
+
+1. [Step 1: Enter the specified command to generate the mnemonic code]
+2. [Step 2: Verify the generated mnemonic code]
+3. [Step 3: Store the mnemonic code securely]
+
+Once the mnemonic code is generated and verified, you are ready to proceed with transactions in the property app.
+
+
+Please Note: The mnemonic code and transaction id has been generated for the property app!! if you wish to know the transaction id please send me a request.
+
+
+
+## Pre Instruction
+The below instructions consists of pre steps required to develop the backend.
+
+
 # Weather API
 
 This Weather API is built using Node.js and Express, and it's designed to fetch weather data for a specified city. It's a simple demonstration of creating and deploying RESTful APIs with a service layer architecture, using TypeScript for improved code reliability.
