@@ -27,23 +27,23 @@ export const getpropertyData = async (req: Request, res: Response) => {
   // We will use a try catch block to catch any errors
   try {
     // Get the property param from the request
-    const { type } = req.params;
-    console.log(type);
+    const { property } = req.params;
+    console.log(property);
 
     // We will create a variable with a type of WeatherData
     let finalpropertyData: propertyData;
 
     // We will use an if statement to check which city was passed in
-    if (type === "bungalow") {
+    if (property === "bungalow") {
       console.log(generatebungalowData());
       finalpropertyData = generatebungalowData();
-    } else if (type === "cottage") {
+    } else if (property === "cottage") {
       console.log(generatecottageData());
       finalpropertyData = generatecottageData();
-    } else if (type === "terraced") {
+    } else if (property === "terraced") {
       console.log(generateterracedData())
       finalpropertyData = generateterracedData();
-    } else if (type === "flat") {
+    } else if (property === "flat") {
       console.log(generateflatData())
       finalpropertyData = generateflatData();
     } else {
